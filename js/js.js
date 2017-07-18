@@ -133,7 +133,7 @@ $(function() {
 			makeImg.src = arr[i];
 			makeImg.onload = function() {
 				imgLeng++;
-				$('#num').html(parseInt(imgLeng*100/114)+'%');
+				$('#num').html(parseInt(imgLeng);
 				$('#jdt i').css({width:imgLeng*100/114+'%'});
 				if(imgLeng == 114) {
 					$('#audio1').get(0).play();
