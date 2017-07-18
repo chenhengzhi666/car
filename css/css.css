@@ -1,0 +1,89 @@
+*{margin: 0; padding: 0;}
+img{display: block; position: absolute;}
+
+.page1{background: url(../images/pic4.png) center top no-repeat; background-size: 100% 100%; position: relative; overflow: hidden;}
+.page2{background: url(../images/twoback.png) center top no-repeat; background-size: cover; background-size: 100% 100%; position: relative; overflow: hidden;}
+.page3{background: url(../images/twopic2.png); background-size: 100% 100%; position: relative; overflow: hidden;}
+.page4, .page7, .page9{background: black;}
+.page5, .page6{background: url(../images/threepic1.png); background-size: 100% 100%; position: relative; overflow: hidden;}
+.page8{background: url(../images/sixpic1s.png); background-size: 100% 100%; position: relative; overflow: hidden;}
+.page10{background: url(../images/eightbc.png); background-size: 100% 100%; position: relative; overflow: hidden;}
+
+@keyframes move1{0%{transform: rotateZ(0deg);} 100%{transform: rotateZ(360deg);} }
+@keyframes move2{0%{bottom:0.78rem; opacity: 1;} 100%{bottom: 0.88rem; opacity: 0.8;} }
+@keyframes move3{0%{transform: rotateZ(0deg);} 100%{transform: rotateZ(360deg);} }
+@keyframes move4{0%{left: 3.82rem; top: 1.65rem;} 100%{left: 3.62rem; top: 1.35rem;}}
+@keyframes move5{0%{transform: scale(1);} 100%{transform: scale(1.5);}}
+@keyframes move6{0%{bottom: 0.58rem; left: 2.32rem;} 100%{bottom: 0.78rem; left: 1.8rem;}}
+@keyframes move7{0%{left: 3.82rem; top: 1.65rem;} 100%{left: 3.62rem; top: 1.35rem;}}
+
+#music{width: 0.7rem; height: 0.9rem; right: 0.25rem; bottom: 4rem; z-index: 100; animation: move3 2s 0s linear infinite;}
+.page1>.img8, .page2>.img3, .page3>.img6, .page4>.img4, .page5>.img5, .page6>.img3, .page7>.img3, .page8>.img5, .page9>.img4{width: 0.52rem; height: 0.44rem; bottom: 0.78rem; left: 2.94rem; animation: move2 1s 0s ease-in infinite; z-index: 1000;}
+
+.page1>.img1{width: 1.68rem; height: 0.6rem; top: 0.46rem; left: 0.38rem;}
+.page1>.img2, .page1>.img3, .page1>.img4, .page1>.img5{width: 6.06rem; height: 6.58rem; top: 0.35rem; left: 0.2rem;}
+.page1>.img3{top: 0.38rem; z-index: 5;}
+.page1>.img4, .page1>.img5{top: 0.38rem;}
+.page1>.img6{width: 3.6rem; height: 3.6rem; top: 1.8rem; left: 1.3rem; animation: move1 1.5s 0s linear infinite;}
+.page1>.img7{width: 6.4rem; height: 5.25rem; bottom: 0;}
+
+
+.page2>.img1{width: 3.5rem; height: 1.72rem; top: 2.06rem; left: 1.42rem;}
+.page2>.img2{width: 6.02rem; height: 3.64rem; bottom: 1.55rem; left: 0.25rem;}
+
+
+.page3>.img1{width: 2.33rem; height: 2.33rem; left: 0.35rem; top: 0.57rem;}
+.page3>.img2{width: 2.13rem; height: 2.13rem; left: 0.48rem; top: 0.72rem;}
+.page3>.img3{width: 2.16rem; height: 2.16rem; left: 0.45rem; top: 0.69rem; animation: move1 1.5s 0s linear infinite;}
+.page3>p{width: 2.65rem; height: 0.6rem; font-size: 0.48rem; font-family: "微软雅黑"; line-height: 0.6rem; border-bottom: 1px solid black;}
+.page3>.p1{position: absolute; left: 2.82rem; top: 1.2rem; z-index: 2;}
+.page3>.p2{text-align: right; position: absolute; left: 1.7rem; top: 2.3rem; z-index: 2;}
+.page3>.p3{position: absolute; left: 0.72rem; top: 3.26rem; z-index: 2;}
+.page3>.img4{width: 0.78rem; height: 0.8rem; left: 3.82rem; top: 1.65rem; animation: move4 1s 0s linear infinite;}
+.bigcar{position: absolute; top: 3.4rem; left: -2.65rem;width: 15.76rem; height: 9.53rem; background: url(../images/bigcar.png) no-repeat; background-size: 100% 100%;}
+.page3 .img5{ width: 3.45rem; height: 4.52rem; left: 2.6rem; top: 4rem; display: none;} 	
+
+
+.page4>.p1{width: 100%; height: 0.6rem; color: #FFFFFF; font-size: 0.4rem; font-family: "微软雅黑"; text-align: center; line-height: 0.6rem; margin-top: 0.2rem;}
+#box {width: 6.4rem; height: 4.8rem; position: absolute; left: 0; top: 1rem; overflow: hidden;}
+#box img { width: 6.4rem; height: 4.8rem; position: absolute; left: 0; top: 0; display: none; }
+#box img:first-child { display: block; }
+.page4>.img1{width: 0.7rem; height: 0.73rem; left: 1.4rem; top: 5.5rem;}
+.page4>.img2{width: 1rem; height: 1rem; left: 2.7rem; top: 5.5rem;}
+.page4>.img3{width: 1rem; height: 1rem; left: 4.4rem; top: 5.47rem;}
+
+
+.page5>.img1{width: 3.65rem; height: 0.56rem; left: 0.5rem; top: 1.24rem; z-index: 100;}
+.page5>.img2{width: 12rem; height: 119%; top: -1.1rem;}
+.page5>.img3{width: 5.39rem; height: 1.35rem; left: 0.5rem; top: 2.28rem;}
+.page5>.img4, .page6>.img1{width: 6.4rem; height: 5.92rem; left: 0rem; bottom: 0rem;}
+.page5>.img6{left: 3.82rem; top: 1.65rem; width: 0.78rem;height: 0.8rem;animation: move7 1s 0s linear infinite;}
+.page5>.img7{height: 3.25rem; width: 5.53rem; top: 1.5rem; left: 0.52rem; display: none;}
+.page5>.img8{height: 4.59rem; width: 6.2rem; bottom: 0.62rem; display: none;}
+.page5>.img9{height: 3.62rem; width: 6.4rem; top: 0.05rem; display: none;}
+.page5>.img10{height: 3.56rem; width: 4.89rem; bottom: 0.3rem; left: 0.92; display: none;}
+
+
+.page6>.img2{width: 2.05rem; height: 2.05rem; left: 2.16rem; top: 2.74rem; z-index: 5; animation: move3 2s 0s linear infinite;}
+.page6>.p1{width: 2.05rem; height: 2.05rem; font-size: 0.38rem; text-align: center; line-height: 2.05rem; font-family: "微软雅黑"; position: absolute; left: 2.16rem; top: 2.74rem; z-index: 6; animation: move5 1s 0s linear infinite;}
+#markB{width: 100%; height: 100%; background: #000000; opacity: 0.8; position: absolute; z-index: 3;}
+
+
+.page7>.img1{width: 6.4rem; height: 8.54rem;}
+.page7>.img2{width: 4.47rem; height: 2.1rem; bottom: 0.58rem;}
+.page7>.img4{width: 0.78rem; height: 0.8rem; bottom: 0.58rem; left: 2.32rem; animation: move6 1s 0s linear infinite;}
+
+
+.page8>.img1{width: 6.4rem; height: 4.35rem; z-index: 2;}
+.page8>.img2{width: 5.58rem; height: 3rem; top: 4.35rem; z-index: 2;}
+.page8>.img3{width: 6.4rem; height: 3.7rem; top: 6.36rem;}
+.page8>.img4{width: 6.68rem; height: 7.36rem; z-index: 2;}
+
+.page9>.img1{width: 6.4rem; height: 3.78rem; position: static;}
+.page9>.img2{width: 6.4rem; height: 3.68rem; margin-top: -1px; position: static;}
+.page9>.img3{width: 6.4rem; height: 3.98rem; position: static;}
+
+.page10>.p1{width: 100%; height: 0.48rem; font-size: 0.48rem; font-family: "微软雅黑"; line-height: 0.48rem; text-align: center; position: absolute; top: 1.96rem;}
+.cont{font-size: 0.24rem; width: 100%; position: absolute; top: 2.82rem; text-align: center;}
+.cont input{width: 3.37rem; height: 0.46rem; border: 1px solid #a5aeb7; outline: none; background-color: #c7ddef; margin-left: 0.16rem; font-size: 0.24rem; margin-top: 0.2rem; padding: 2px;}
+.btn{display: block; width: 3.44rem; height: 0.56rem;background: #f60; color: #fff; font-size: 0.36rem; font-family: "微软雅黑"; outline: none; border: none; text-align: center; line-height: 0.56rem; border-radius: 0.1rem; margin: 0.38rem 0 0 1.73rem;}
